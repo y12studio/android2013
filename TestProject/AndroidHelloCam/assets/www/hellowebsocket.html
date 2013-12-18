@@ -1,0 +1,47 @@
+<!DOCTYPE html><html><head><script src="js/shadow_dom.debug.js"></script>
+<script src="js/custom-elements.debug.js"></script>
+<script src="js/interop.js"></script>
+
+    <meta charset="utf-8">
+    <title>HelloWebsocket Android Test</title>
+    <link rel="stylesheet" href="hellowebsocket.css">
+    
+    <!-- import the click-counter -->
+    
+    <script src="hellowebsocket.html_bootstrap.dart.js"></script>
+    
+  </head>
+  <body><polymer-element name="click-counter" attributes="count">
+  <template>
+    <style>
+      div {
+        font-size: 24pt;
+        text-align: center;
+        margin-top: 40px;
+      }
+      button {
+        font-size: 24pt;
+        margin-bottom: 20px;
+      }
+    </style>
+    <div>
+      <button on-click="{{increment}}">Click me</button><br>
+      <span>(click count: {{count}})</span>
+    <p><textarea rows="15" cols="80" id="output"></textarea></p>
+    </div>
+  </template>
+  
+</polymer-element>
+
+
+    <h1>HelloWebsocket</h1>
+    
+    <p>Hello world from Dart!</p>
+    
+    <div id="sample_container_id">
+      <click-counter count="5"></click-counter>
+    </div>
+
+  
+
+</body></html>

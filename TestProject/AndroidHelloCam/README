@@ -1,0 +1,5 @@
+RK3188 device(CS918) with USB UVC webcam + OpenCV 2.4.7.1
+
+
+usb cam - CS918(Android) - App(OpenCV+AndroidAsync) - Websocket - PC(HTML5 Browser)
+
